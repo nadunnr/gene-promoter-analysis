@@ -16,3 +16,6 @@ echo "Extracting downloaded data..."
 unzip genomes.zip -d data
 
 echo "Done! All genome data extracted to 'data' folder."
+
+rm genomes.zip
+echo "Cleaned up zip file."
