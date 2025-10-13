@@ -1,0 +1,3 @@
+# config.yaml
+data_path: "data/ncbi_dataset/data"
+my_genome: "GCA_900636475.1"

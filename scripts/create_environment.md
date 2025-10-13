@@ -2,7 +2,7 @@
 
 ```bash
 echo "Creating data directory..."
-conda create -y -n gsp_ncbi_datasets
+conda create -y -n gsp_ncbi_datasets python=3.13
 conda activate gsp_ncbi_datasets
 
 conda install -y -c conda-forge ncbi-datasets-cli
