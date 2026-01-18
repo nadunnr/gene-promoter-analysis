@@ -1,6 +1,6 @@
 # Gene Promoter Analysis
 
-A comprehensive computational biology project for identifying and analyzing bacterial gene promoters using Position Probability Matrices (PPM) and statistical alignment methods.
+A computational biology project for identifying and analyzing bacterial gene promoters using Position Probability Matrices (PPM) and statistical alignment methods. This work was completed as a mini project for **BM4322 - Genomic Signal Processing** course at the **University of Moratuwa**.
 
 ## 📋 Project Overview
 
@@ -20,6 +20,7 @@ The analysis focuses on identifying the canonical bacterial promoter motif **TAT
 - Generated consensus sequence: **TATAAT**
 
 ![Position Probability Matrix](images/ppm.png)
+![Consensus Sequence Visualization](images/motif.png)
 
 ### 2. Statistical Alignment
 - Extracted 1,000 additional promoter regions from the reference genome
@@ -39,19 +40,6 @@ Applied the constructed PPM to analyze promoter presence in 5 additional *S. pne
 | GCA_900637025.1 | Results vary |
 | GCA_900475505.1 | Results vary |
 | GCA_019046945.1 | Results vary |
-
-### Sample Analysis Results
-
-<table>
-<tr>
-<td><img src="images/genome_1.png" width="400"/></td>
-<td><img src="images/genome_2.png" width="400"/></td>
-</tr>
-<tr>
-<td><img src="images/genome_3.png" width="400"/></td>
-<td><img src="images/genome_4.png" width="400"/></td>
-</tr>
-</table>
 
 ## 🚀 Setup Instructions
 
@@ -192,25 +180,3 @@ Promoters are detected when:
 ```
 log_score ≥ consensus_score - threshold
 ```
-
-## 📚 References
-
-For detailed methodology and results, see:
-- `promoter_analysis_report.pdf` - Complete analysis report
-- `promoter_analysis.ipynb` - Interactive analysis notebook
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
-## 📄 License
-
-This project is for educational and research purposes.
-
-## 👨‍💻 Authors
-
-Created as part of bioinformatics coursework for gene promoter analysis.
-
----
-
-**Last Updated**: January 2026
